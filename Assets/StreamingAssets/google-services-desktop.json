@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "241096149816",
+    "project_id": "shoot-week",
+    "storage_bucket": "shoot-week.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241096149816:android:213338a133d09d6ffdcfcd",
+        "android_client_info": {
+          "package_name": "com.toy.stream.shoot.week"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241096149816-sn0ue6r4a8bcd0rnf5622ojv66q6lvbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBhkRDCro96JseXcgP0raNZ3CR-zLg5Tg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241096149816-sn0ue6r4a8bcd0rnf5622ojv66q6lvbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

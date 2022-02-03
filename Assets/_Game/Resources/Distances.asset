@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8526e4a46b6949b881958b16aa160816, type: 3}
+  m_Name: Distances
+  m_EditorClassIdentifier: 
+  Distances:
+  - Id: 1
+    Dist: 4.190946
+  - Id: 2
+    Dist: 5.15007
+  - Id: 3
+    Dist: 2.8597772
+  - Id: 4
+    Dist: 3.793475
+  - Id: 5
+    Dist: 5.7729774
+  - Id: 6
+    Dist: 4.461686
+  - Id: 7
+    Dist: 6.1219735
+  - Id: 8
+    Dist: 5.156872
+  - Id: 9
+    Dist: 4.0873594
+  - Id: 10
+    Dist: 5.5297937
+  - Id: 11
+    Dist: 6.4915442
+  - Id: 12
+    Dist: 7.4659514
+  - Id: 13
+    Dist: 6.8299894
+  - Id: 14
+    Dist: 5.1642904
+  - Id: 15
+    Dist: 6.835313
+  - Id: 16
+    Dist: 6.1949015
+  - Id: 17
+    Dist: 7.694873
+  - Id: 18
+    Dist: 6.210923
+  - Id: 19
+    Dist: 8.553888
+  - Id: 20
+    Dist: 5.359941
+  - Id: 21
+    Dist: 6.8842287
+  - Id: 22
+    Dist: 7.063882
+  - Id: 23
+    Dist: 6.911873
+  - Id: 24
+    Dist: 7.768935
+  - Id: 25
+    Dist: 8.767332
+  - Id: 26
+    Dist: 3.6520257
+  - Id: 27
+    Dist: 3.1519322
+  - Id: 28
+    Dist: 3.7891164

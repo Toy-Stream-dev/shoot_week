@@ -1,0 +1,713 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4687ea55d1498891888339cf7b44b0, type: 3}
+  m_Name: LocalizationsContainer
+  m_EditorClassIdentifier: 
+  Localization:
+  - Token: ads_ended
+    Translations:
+    - "\u0420\u0435\u043A\u043B\u0430\u043C\u0430 \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0430\u0441\u044C"
+    - The Ad ended
+  - Token: your_reward
+    Translations:
+    - "\u0412\u0430\u0448\u0430 \u043D\u0430\u0433\u0440\u0430\u0434\u0430"
+    - Your reward
+  - Token: get
+    Translations:
+    - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C"
+    - Receive
+  - Token: ad_offer_type_building_price
+    Translations:
+    - "\u0421\u043A\u0438\u0434\u043A\u0430 \u043D\u0430 \u0443\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435
+      \u0434\u043E\u043C\u043E\u0432 \u043D\u0430 5 \u043C\u0438\u043D\u0443\u0442"
+    - Building upgrade discount for 5 minutes
+  - Token: ad_offer_type_hard
+    Translations:
+    - "\u041F\u043E\u043B\u0443\u0447\u0438 5 \u043A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u043E\u0432"
+    - Get 5 Crystals
+  - Token: ad_offer_type_time_skip
+    Translations:
+    - "\u041F\u0435\u0440\u0435\u043C\u043E\u0442\u043A\u0430 \u043D\u0430 5 \u043C\u0438\u043D\u0443\u0442"
+    - Skip 5 minutes
+  - Token: soft_not_enough
+    Translations:
+    - "\u0417\u043E\u043B\u043E\u0442\u043E: \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442."
+    - Not enough Gold
+  - Token: hard_not_enough
+    Translations:
+    - "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B: \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442."
+    - Not enough Gems
+  - Token: recipe_not_enough
+    Translations:
+    - "\u0420\u0435\u0446\u0435\u043F\u0442\u044B: \u043D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442."
+    - Not enougt Recipe
+  - Token: gold_x_2
+    Translations:
+    - "\u0414\u043E\u0445\u043E\u0434 \u04452"
+    - Gold x2
+  - Token: error_purchase
+    Translations:
+    - "\u041E\u0442\u043C\u0435\u043D\u0430 \u043F\u043E\u043A\u0443\u043F\u043A\u0438!"
+    - Purchase canceled!
+  - Token: store
+    Translations:
+    - "\u041C\u0410\u0413\u0410\u0417\u0418\u041D"
+    - STORE
+  - Token: skip_time
+    Translations:
+    - "\u0423\u0421\u041A\u041E\u0420\u0415\u041D\u0418\u0415 \u0412\u0420\u0415\u041C\u0415\u041D\u0418"
+    - SKIP TIME
+  - Token: boxes
+    Translations:
+    - "\u042F\u0429\u0418\u041A\u0418"
+    - BOXES
+  - Token: crystals
+    Translations:
+    - "\u041A\u0420\u0418\u0421\u0422\u0410\u041B\u041B\u042B"
+    - CRYSTALS
+  - Token: bank_cap_reached
+    Translations:
+    - "\u041A\u0430\u0441\u0441\u0430 \u0437\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u0430!"
+    - Cashbox is full!
+  - Token: daily_rewards
+    Translations:
+    - "\u0415\u0436\u0435\u0434\u043D\u0435\u0432\u043D\u044B\u0435 \u043D\u0430\u0433\u0440\u0430\u0434\u044B!"
+    - Daily rewards!
+  - Token: rate_title
+    Translations:
+    - "\u041E\u0446\u0435\u043D\u0438\u0442\u0435 \u0438\u0433\u0440\u0443"
+    - Rate us!
+  - Token: rate_stars_text
+    Translations:
+    - "\u0412\u0430\u043C \u043D\u0440\u0430\u0432\u0438\u0442\u0441\u044F \u043D\u0430\u0448\u0430
+      \u0438\u0433\u0440\u0430?"
+    - How much do you like our game?
+  - Token: rate_button
+    Translations:
+    - "\u041E\u0446\u0435\u043D\u0438\u0442\u044C"
+    - Rate
+  - Token: day
+    Translations:
+    - "\u0414\u0435\u043D\u044C"
+    - Day
+  - Token: welcome_back
+    Translations:
+    - "\u0421 \u0432\u043E\u0437\u0432\u0440\u0430\u0449\u0435\u043D\u0438\u0435\u043C!"
+    - Welcome back!
+  - Token: while_you_were_offline
+    Translations:
+    - "\u041F\u043E\u043A\u0430 \u0432\u044B \u0431\u044B\u043B\u0438 \u0432\u043D\u0435
+      \u0438\u0433\u0440\u044B %1 (\u041C\u0430\u043A\u0441. 2 \u0447\u0430\u0441\u043E\u0432),
+      \u0432\u044B \u0437\u0430\u0440\u0430\u0431\u043E\u0442\u0430\u043B\u0438"
+    - While you were away for %1 (Max 2 hours), you earned
+  - Token: money
+    Translations:
+    - "\u0414\u043E\u0445\u043E\u0434"
+    - Money
+  - Token: spin_text
+    Translations:
+    - "\u0414\u043E\u0441\u0442\u0443\u043F\u043D\u043E:"
+    - 'Free Spin:'
+  - Token: spin
+    Translations:
+    - "\u041A\u0440\u0443\u0442\u0438\u0442\u044C"
+    - Spin
+  - Token: back
+    Translations:
+    - "\u041D\u0430\u0437\u0430\u0434"
+    - Back
+  - Token: tap_to_continue
+    Translations:
+    - "\u041D\u0430\u0436\u043C\u0438, \u0447\u0442\u043E\u0431\u044B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+    - Tap to continue
+  - Token: tutorial_text_1
+    Translations:
+    - "\u041E\u0442\u043A\u0440\u043E\u0439 \u0437\u0434\u0430\u043D\u0438\u0435"
+    - Open a building
+  - Token: tutorial_text_2
+    Translations:
+    - "\u041D\u0430\u0436\u043C\u0438, \u0447\u0442\u043E\u0431\u044B \u0443\u0441\u043A\u043E\u0440\u0438\u0442\u044C"
+    - Tap to speed up
+  - Token: tutorial_text_3
+    Translations:
+    - "\u0421\u043E\u0431\u0435\u0440\u0438 \u0437\u043E\u043B\u043E\u0442\u043E"
+    - Collect gold
+  - Token: tutorial_text_4
+    Translations:
+    - "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u0435 \u0437\u0434\u0430\u043D\u0438\u0435"
+    - Upgrade a building
+  - Token: tutorial_text_5
+    Translations:
+    - "\u0417\u0430\u0431\u0435\u0440\u0438 \u043D\u0430\u0433\u0440\u0430\u0434\u0443"
+    - Collect your awards
+  - Token: tutorial_text_6
+    Translations:
+    - "\u0423\u043B\u0443\u0447\u0448\u0438 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C
+      \u043F\u0440\u043E\u0438\u0437\u0432\u043E\u0434\u0441\u0442\u0432\u0430"
+    - Improve production speed
+  - Token: skip_time_15
+    Translations:
+    - "30 \u043C\u0438\u043D."
+    - 30 min.
+  - Token: skip_time_120
+    Translations:
+    - "2 \u0447\u0430\u0441\u0430"
+    - 2 hours
+  - Token: skip_time_480
+    Translations:
+    - "8 \u0447\u0430\u0441\u043E\u0432"
+    - 8 hours
+  - Token: crystals_15
+    Translations:
+    - "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B 15"
+    - 15 crystals
+  - Token: crystals_50
+    Translations:
+    - "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B 50"
+    - 50 crystals
+  - Token: crystals_150
+    Translations:
+    - "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B 150"
+    - 150 crystals
+  - Token: crystals_400
+    Translations:
+    - "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B 400"
+    - 400 crystals
+  - Token: crystals_900
+    Translations:
+    - "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B 900"
+    - 900 crystals
+  - Token: crystals_2600
+    Translations:
+    - "\u041A\u0440\u0438\u0441\u0442\u0430\u043B\u043B\u044B 2600"
+    - 2600 crystals
+  - Token: dd
+    Translations:
+    - "\u0434"
+    - d
+  - Token: hh
+    Translations:
+    - "\u0447"
+    - h
+  - Token: mm
+    Translations:
+    - "\u043C"
+    - m
+  - Token: ss
+    Translations:
+    - "\u0441"
+    - s
+  - Token: level
+    Translations:
+    - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C"
+    - Level
+  - Token: lvl
+    Translations:
+    - "\u0423\u0440."
+    - Lvl
+  - Token: income
+    Translations:
+    - "\u0414\u043E\u0445\u043E\u0434"
+    - Income
+  - Token: duration
+    Translations:
+    - "\u0412\u0440\u0435\u043C\u044F"
+    - Duration
+  - Token: building_hypermarket
+    Translations:
+    - "\u0413\u0438\u043F\u0435\u0440\u043C\u0430\u0440\u043A\u0435\u0442"
+    - Hypermarket
+  - Token: building_mailbank
+    Translations:
+    - "\u041F\u043E\u0447\u0442\u0430"
+    - Mail
+  - Token: building_police
+    Translations:
+    - "\u041F\u043E\u043B\u0438\u0446\u0438\u044F"
+    - Police
+  - Token: building_pawnshop
+    Translations:
+    - "\u041B\u043E\u043C\u0431\u0430\u0440\u0434"
+    - Pawn Shop
+  - Token: building_gardeningshop
+    Translations:
+    - "\u0426\u0432\u0435\u0442\u043E\u0447\u043D\u0430\u044F \u043B\u0430\u0432\u043A\u0430"
+    - Flower Shop
+  - Token: building_lighthouse
+    Translations:
+    - "\u041C\u0430\u044F\u043A"
+    - Lighthouse
+  - Token: building_beautyshop
+    Translations:
+    - "\u0421\u0430\u043B\u043E\u043D \u043A\u0440\u0430\u0441\u043E\u0442\u044B"
+    - Beauty Shop
+  - Token: building_candyshop
+    Translations:
+    - "\u0421\u043B\u0430\u0434\u043A\u0430\u044F \u043B\u0430\u0432\u043A\u0430"
+    - Candy Shop
+  - Token: building_coffeeshop
+    Translations:
+    - "\u041A\u043E\u0444\u0435\u0439\u043D\u044F"
+    - Coffee Shop
+  - Token: building_fashionshop
+    Translations:
+    - "\u0411\u0443\u0442\u0438\u043A"
+    - Boutique
+  - Token: building_hospital
+    Translations:
+    - "\u0411\u043E\u043B\u044C\u043D\u0438\u0446\u0430"
+    - Hospital
+  - Token: building_hotel
+    Translations:
+    - "\u041E\u0442\u0435\u043B\u044C"
+    - Hotel
+  - Token: building_house_1_1
+    Translations:
+    - "\u0420\u043E\u0437\u043E\u0432\u044B\u0439 \u0434\u043E\u043C\u0438\u043A"
+    - Pink Home
+  - Token: building_magicshop
+    Translations:
+    - "\u0427\u0430\u0440\u043E\u0434\u0435\u0439\u0441\u043A\u0430\u044F \u043B\u0430\u0432\u043A\u0430"
+    - Fortune Teller
+  - Token: building_miscshop_2
+    Translations:
+    - "\u041C\u0430\u0433\u0430\u0437\u0438\u043D\u0447\u0438\u043A"
+    - General Store
+  - Token: building_restaurant
+    Translations:
+    - "\u0420\u0435\u0441\u0442\u043E\u0440\u0430\u043D"
+    - Restaurant
+  - Token: building_townhall
+    Translations:
+    - "\u0420\u0430\u0442\u0443\u0448\u0430"
+    - Town Hall
+  - Token: building_windmill
+    Translations:
+    - "\u041C\u0435\u043B\u044C\u043D\u0438\u0446\u0430"
+    - Windmill
+  - Token: building_house_1_2
+    Translations:
+    - "\u041A\u0440\u0430\u0441\u043D\u044B\u0439 \u0434\u043E\u043C\u0438\u043A"
+    - Red Home
+  - Token: building_house_1_3
+    Translations:
+    - "\u0416\u0438\u043B\u043E\u0439 \u0434\u043E\u043C"
+    - Blue Home
+  - Token: building_house_1_4
+    Translations:
+    - "\u0417\u0435\u043B\u0451\u043D\u044B\u0439 \u0434\u043E\u043C\u0438\u043A"
+    - Green Home
+  - Token: building_house_2_1
+    Translations:
+    - "\u0424\u0438\u043E\u043B\u0435\u0442\u043E\u0432\u0430\u044F \u0445\u0438\u0436\u0438\u043D\u0430"
+    - Purple House
+  - Token: building_house_2_2
+    Translations:
+    - "\u041A\u0440\u0430\u0441\u043D\u0430\u044F \u0445\u0438\u0436\u0438\u043D\u0430"
+    - Red House
+  - Token: building_house_2_3
+    Translations:
+    - "\u0416\u0451\u043B\u0442\u0430\u044F \u0445\u0438\u0436\u0438\u043D\u0430"
+    - Yellow House
+  - Token: building_house_2_4
+    Translations:
+    - "\u041B\u0430\u0437\u0443\u0440\u043D\u0430\u044F \u0445\u0438\u0436\u0438\u043D\u0430"
+    - Blue House
+  - Token: param_currentfood
+    Translations:
+    - "\u0417\u0430\u043F\u0430\u0441 \u0435\u0434\u044B"
+    - Food capacity
+  - Token: param_foodspawndelay
+    Translations:
+    - "\u041F\u043E\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435"
+    - Production
+  - Token: param_foodspeed
+    Translations:
+    - "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F"
+    - Food Speed
+  - Token: param_buildingprofit
+    Translations:
+    - "\u0414\u043E\u0445\u043E\u0434"
+    - Profit
+  - Token: param_autocollect
+    Translations:
+    - "\u0410\u0432\u0442\u043E\u0441\u0431\u043E\u0440"
+    - Auto collect
+  - Token: param_bank
+    Translations:
+    - "\u041A\u0430\u0441\u0441\u0430"
+    - Cashbox
+  - Token: param_foodvalue
+    Translations:
+    - "\u041A\u0430\u043B\u043E\u0440\u0438\u0439\u043D\u043E\u0441\u0442\u044C"
+    - Callories
+  - Token: param_currentfood_desc
+    Translations:
+    - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u043C\u0430\u043A\u0441\u0438\u043C\u0430\u043B\u044C\u043D\u043E\u0435
+      \u043A\u043E\u043B\u0438\u0447\u0435\u0441\u0442\u0432\u043E \u0445\u0440\u0430\u043D\u0438\u043C\u043E\u0439
+      \u0435\u0434\u044B"
+    - Increases maximum food capacity
+  - Token: param_foodspawndelay_desc
+    Translations:
+    - "\u0427\u0430\u0441\u0442\u043E\u0442\u0430 \u0432\u044B\u0445\u043E\u0434\u0430
+      \u0435\u0434\u044B \u0438\u0437 \u0434\u043E\u043C\u0438\u043A\u0430"
+    - how often the food exits the storage
+  - Token: param_foodspeed_desc
+    Translations:
+    - "\u0427\u0435\u043C \u0431\u044B\u0441\u0442\u0440\u0435\u0435 \u0435\u0434\u0430
+      \u0434\u043E\u0441\u0442\u0438\u0433\u043D\u0435\u0442 \u0434\u043E\u043C\u0438\u043A\u0430,
+      \u0442\u0435\u043C \u0440\u0430\u043D\u044C\u0448\u0435 \u0432\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u0435
+      \u043D\u0430\u0433\u0440\u0430\u0434\u0443"
+    - The faster you deliver, the faster you gain reward
+  - Token: param_buildingprofit_desc
+    Translations:
+    - "\u0423\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0434\u043E\u0445\u043E\u0434
+      \u0441\u043E \u0432\u0441\u0435\u0445 \u0434\u043E\u043C\u0438\u043A\u043E\u0432"
+    - Increases income of all buildings
+  - Token: param_autocollect_desc
+    Translations:
+    - "\u041F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0437\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+      \u0441\u0431\u043E\u0440 \u043D\u0430\u0433\u0440\u0430\u0434\u044B \u0438\u0437
+      \u044D\u0442\u043E\u0433\u043E \u0434\u043E\u043C\u0438\u043A\u0430"
+    - Automates this building - you will receive profit automatically!
+  - Token: param_bank_desc
+    Translations:
+    - "\u0427\u0435\u043C \u0431\u043E\u043B\u044C\u0448\u0435 \u043E\u0431\u044A\u0451\u043C
+      \u0431\u0430\u043D\u043A\u0430, \u0442\u0435\u043C \u0431\u043E\u043B\u044C\u0448\u0435
+      \u0442\u0430\u043C \u0445\u0440\u0430\u043D\u0438\u0442\u0441\u044F \u0437\u043E\u043B\u043E\u0442\u0430"
+    - The bigger is your bank, the better!
+  - Token: param_foodvalue_desc
+    Translations:
+    - "\u0412\u044B\u0441\u043E\u043A\u0430\u044F \u043A\u0430\u043B\u043E\u0440\u0438\u0439\u043D\u043E\u0441\u0442\u044C
+      \u0431\u044B\u0441\u0442\u0440\u0435\u0435 \u0437\u0430\u043F\u043E\u043B\u043D\u044F\u0435\u0442
+      \u0434\u043E\u043C\u0438\u043A\u0438"
+    - More callories means faster satiation
+  - Token: speed_suffix
+    Translations:
+    - " \u043C/\u0441"
+    - m/s
+  - Token: per_min
+    Translations:
+    - " / \u043C\u0438\u043D"
+    - / min
+  - Token: pickup_reward
+    Translations:
+    - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C!"
+    - Pick up!
+  - Token: not_enough_soft
+    Translations:
+    - "\u041D\u0435 \u0445\u0432\u0430\u0442\u0430\u0435\u0442 \u0437\u043E\u043B\u043E\u0442\u0430!"
+    - Not enough gold!
+  - Token: building_level_needed
+    Translations:
+    - "\u041D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C ## \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+      \u0437\u0434\u0430\u043D\u0438\u044F!"
+    - '## building level needed!'
+  - Token: levels_upgrade
+    Translations:
+    - "+## \u0443\u0440"
+    - +## lvl
+  - Token: build_building
+    Translations:
+    - "\u041E\u0442\u043A\u0440\u044B\u0442\u044C"
+    - Open
+  - Token: settings
+    Translations:
+    - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+    - Settings
+  - Token: language_ru
+    Translations:
+    - "\u0420\u0443\u0441"
+    - "\u0420\u0443\u0441"
+  - Token: language_en
+    Translations:
+    - Eng
+    - Eng
+  - Token: mute
+    Translations:
+    - "\u0411\u0435\u0437 \u0437\u0432\u0443\u043A\u0430"
+    - Mute
+  - Token: cards
+    Translations:
+    - "\u041A\u0430\u0440\u0442\u043E\u0447\u043A\u0438"
+    - Cards
+  - Token: quality_common
+    Translations:
+    - "\u041E\u0431\u044B\u0447\u043D\u0430\u044F"
+    - Common
+  - Token: quality_uncommon
+    Translations:
+    - "\u041D\u0435\u043E\u0431\u044B\u0447\u043D\u0430\u044F"
+    - Uncommon
+  - Token: quality_rare
+    Translations:
+    - "\u0420\u0435\u0434\u043A\u0430\u044F"
+    - Rare
+  - Token: quality_epic
+    Translations:
+    - "\u042D\u043F\u0438\u0447\u0435\u0441\u043A\u0430\u044F"
+    - Epic
+  - Token: quality_legendary
+    Translations:
+    - "\u041B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u0430\u044F"
+    - Legendary
+  - Token: upgrade
+    Translations:
+    - "\u0423\u043B\u0443\u0447\u0448\u0438\u0442\u044C"
+    - Upgrade
+  - Token: card_coming_soon
+    Translations:
+    - "\u0422\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u0430\u044F \u043A\u0430\u0440\u0442\u0430.
+      \u041E\u0442\u043A\u0440\u043E\u0435\u0442\u0441\u044F \u043F\u043E\u0437\u0436\u0435."
+    - Mystery Card. Available soon.
+  - Token: box_free
+    Translations:
+    - "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E"
+    - Free
+  - Token: box_cheap
+    Translations:
+    - "\u041F\u043E\u0434\u0435\u0448\u0435\u0432\u043B\u0435"
+    - Cheap
+  - Token: box_expensive
+    Translations:
+    - "\u041F\u043E\u0434\u043E\u0440\u043E\u0436\u0435"
+    - Expensive
+  - Token: open_free_box
+    Translations:
+    - "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E"
+    - Free
+  - Token: food_burger
+    Translations:
+    - "\u0411\u0443\u0440\u0433\u0435\u0440"
+    - Burger
+  - Token: food_coffee
+    Translations:
+    - "\u041A\u043E\u0444\u0435"
+    - Coffee cup
+  - Token: food_salad
+    Translations:
+    - "\u0411\u0440\u043E\u043A\u043A\u043E\u043B\u0438"
+    - Broccoli
+  - Token: food_hotdog
+    Translations:
+    - "\u0425\u043E\u0442-\u0434\u043E\u0433"
+    - Hotdog
+  - Token: food_donut
+    Translations:
+    - "\u041F\u043E\u043D\u0447\u0438\u043A"
+    - Donut
+  - Token: food_uncommon_burger
+    Translations:
+    - "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u0431\u0443\u0440\u0433\u0435\u0440"
+    - Big burger
+  - Token: food_uncommon_coffee
+    Translations:
+    - "\u041B\u0430\u0442\u0442\u0435"
+    - Latte cup
+  - Token: food_uncommon_salad
+    Translations:
+    - "\u0421\u0430\u043B\u0430\u0442"
+    - Salad
+  - Token: food_uncommon_hotdog
+    Translations:
+    - "\u0411\u043E\u043B\u044C\u0448\u043E\u0439 \u0445\u043E\u0442-\u0434\u043E\u0433"
+    - Big hotdog
+  - Token: food_banana
+    Translations:
+    - "\u0411\u0430\u043D\u0430\u043D"
+    - Banana
+  - Token: food_carrot
+    Translations:
+    - "\u041C\u043E\u0440\u043A\u043E\u0432\u044C"
+    - Carrot
+  - Token: food_chicken
+    Translations:
+    - "\u041E\u043A\u043E\u0440\u043E\u043A"
+    - Chicken
+  - Token: food_frenchfries
+    Translations:
+    - "\u041A\u0430\u0440\u0442\u043E\u0448\u043A\u0430"
+    - French Fries
+  - Token: food_icecream
+    Translations:
+    - "\u041C\u043E\u0440\u043E\u0436\u0435\u043D\u043E\u0435"
+    - Ice cream
+  - Token: food_pizza
+    Translations:
+    - "\u041F\u0438\u0446\u0446\u0430"
+    - Pizza
+  - Token: food_tacos
+    Translations:
+    - "\u0422\u0430\u043A\u043E"
+    - Tacos
+  - Token: exp3
+    Translations:
+    - k
+    - k
+  - Token: exp6
+    Translations:
+    - m
+    - m
+  - Token: exp9
+    Translations:
+    - b
+    - b
+  - Token: exp12
+    Translations:
+    - t
+    - t
+  - Token: exp15
+    Translations:
+    - aa
+    - aa
+  - Token: exp18
+    Translations:
+    - bb
+    - bb
+  - Token: exp21
+    Translations:
+    - cc
+    - cc
+  - Token: exp24
+    Translations:
+    - dd
+    - dd
+  - Token: exp27
+    Translations:
+    - ee
+    - ee
+  - Token: exp30
+    Translations:
+    - ff
+    - ff
+  - Token: exp33
+    Translations:
+    - gg
+    - gg
+  - Token: exp36
+    Translations:
+    - hh
+    - hh
+  - Token: exp39
+    Translations:
+    - ii
+    - ii
+  - Token: exp42
+    Translations:
+    - jj
+    - jj
+  - Token: exp45
+    Translations:
+    - kk
+    - kk
+  - Token: exp48
+    Translations:
+    - ll
+    - ll
+  - Token: exp51
+    Translations:
+    - mm
+    - mm
+  - Token: exp54
+    Translations:
+    - nn
+    - nn
+  - Token: exp57
+    Translations:
+    - oo
+    - oo
+  - Token: exp60
+    Translations:
+    - pp
+    - pp
+  Exp:
+  - Token: exp3
+    Translations:
+    - k
+    - k
+  - Token: exp6
+    Translations:
+    - m
+    - m
+  - Token: exp9
+    Translations:
+    - b
+    - b
+  - Token: exp12
+    Translations:
+    - t
+    - t
+  - Token: exp15
+    Translations:
+    - aa
+    - aa
+  - Token: exp18
+    Translations:
+    - bb
+    - bb
+  - Token: exp21
+    Translations:
+    - cc
+    - cc
+  - Token: exp24
+    Translations:
+    - dd
+    - dd
+  - Token: exp27
+    Translations:
+    - ee
+    - ee
+  - Token: exp30
+    Translations:
+    - ff
+    - ff
+  - Token: exp33
+    Translations:
+    - gg
+    - gg
+  - Token: exp36
+    Translations:
+    - hh
+    - hh
+  - Token: exp39
+    Translations:
+    - ii
+    - ii
+  - Token: exp42
+    Translations:
+    - jj
+    - jj
+  - Token: exp45
+    Translations:
+    - kk
+    - kk
+  - Token: exp48
+    Translations:
+    - ll
+    - ll
+  - Token: exp51
+    Translations:
+    - mm
+    - mm
+  - Token: exp54
+    Translations:
+    - nn
+    - nn
+  - Token: exp57
+    Translations:
+    - oo
+    - oo
+  - Token: exp60
+    Translations:
+    - pp
+    - pp
+  Tutorial: []

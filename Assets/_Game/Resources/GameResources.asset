@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ae69e2853e35b41a5abd1dbc7ea9d3, type: 3}
+  m_Name: GameResources
+  m_EditorClassIdentifier: 
+  _spritesData:
+  - Key: nameplate_inactive
+    Value: {fileID: 21300000, guid: 29c6faf6e8e0f0147b2dc23e5ae80bbe, type: 3}
+  - Key: lock
+    Value: {fileID: 21300000, guid: 2448f141b4cef4c4684823d1bea4f8d1, type: 3}
+  - Key: map_1
+    Value: {fileID: 21300000, guid: 94f07a7adcf23014a8bcc7270f219360, type: 3}
+  - Key: Gun
+    Value: {fileID: 21300000, guid: 7dc226540e9fe17458fd2a04605b4490, type: 3}
+  - Key: Cock
+    Value: {fileID: 21300000, guid: 59eba344742eda34eb7bb24f60a839b6, type: 3}
+  - Key: Cow
+    Value: {fileID: 21300000, guid: aeb10374ec9e7aa40a5689e929d50b58, type: 3}
+  - Key: USA
+    Value: {fileID: 21300000, guid: 1b41c6d5f078de4479525f4440b9104b, type: 3}
+  - Key: AutomaticRifle
+    Value: {fileID: 21300000, guid: 1609dab8114ed0243a291fd88b9b77b0, type: 3}
+  - Key: Shotgun
+    Value: {fileID: 21300000, guid: 937fb486ceaf89842a708df6e5c5c2ae, type: 3}
+  - Key: BaseballBat
+    Value: {fileID: 21300000, guid: abebff9dbc2af6e4f8239f1de4c7b82e, type: 3}
+  - Key: FragGrenade
+    Value: {fileID: 21300000, guid: 3e5db86ea9d85a149a6f414124e65146, type: 3}
+  - Key: Crowbar
+    Value: {fileID: 21300000, guid: bd028be50743f92468d87271dff370dd, type: 3}
+  - Key: Baton
+    Value: {fileID: 21300000, guid: 6d4b77c879f223948bd8fb5c3c61a092, type: 3}
+  - Key: Katana
+    Value: {fileID: 21300000, guid: 9e7fd801d7817da4da25b91c2f9ea05b, type: 3}
+  - Key: Machete
+    Value: {fileID: 21300000, guid: 25afb3c6f71d7d6478249b612c4c1c4a, type: 3}
+  - Key: Cleaver
+    Value: {fileID: 21300000, guid: cdbeb5fe8cecdbd4dbbf5f8ef7d4f47c, type: 3}
+  - Key: Uzi
+    Value: {fileID: 21300000, guid: ce45f152c13e81844b2160d1b68a7027, type: 3}
+  - Key: Magnum
+    Value: {fileID: 21300000, guid: 7214529ab2f13d843bdde167dbcdd2e3, type: 3}
+  - Key: Soft
+    Value: {fileID: 21300000, guid: d517f2e7fe185be40976534c454963cd, type: 3}
+  - Key: Experience
+    Value: {fileID: 21300000, guid: f71e7758d71ec44409d7e73a84d90139, type: 3}
+  - Key: GoldenMask
+    Value: {fileID: 21300000, guid: 04b5986c31ed83542a7bde1e499b06e5, type: 3}
+  - Key: PigMask
+    Value: {fileID: 21300000, guid: 428a49309116a7d4daf63aa62ee7f84d, type: 3}
+  - Key: SquidMask
+    Value: {fileID: 21300000, guid: fb424ef19d8b21a4c88cf094c9aa1c17, type: 3}
+  _placeholder: {fileID: 0}
